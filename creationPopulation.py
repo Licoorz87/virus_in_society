@@ -168,7 +168,7 @@ def createPopulation(num):
 		risk += riskYearsOld
 		
 		if defineHIV(yearsOld):
-			risk += 5
+			risk += 3
 		
 		diabetes = defineDiabetes(yearsOld)
 		if diabetes:
@@ -179,20 +179,20 @@ def createPopulation(num):
 			risk += 0.15
 		
 		elif weight == 2:
-			risk += 1
+			risk += 0.58
 		
 		if defineHeart(yearsOld, diabetes):
 			risk += 1
 			
 		breathing = defineBreathing(yearsOld)
 		if breathing == 1:
-			risk += 0.6
+			risk += 0.3
 		
 		elif breathing == 2:
 			risk += 1.5
 		
 		
-		person = [i, False, risk, 0]
+		person = [i, False, risk, 0, []]
 		
 		population.append(person)
 		
