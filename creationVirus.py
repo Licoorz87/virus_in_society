@@ -23,11 +23,11 @@ def creationName():
 	
 
 def creationProperties():
-	transmissionFee = log(randint(2, 32), 2)
+	transmissionFee = log(randint(2, 16), 2)
 	incubationTime = randint(3, 10)
 	activeTime = randint(7, 15)
 	maxActiveTime = activeTime + incubationTime
-	lethality = 0.99**(randint(-178, 900)) / activeTime
-	mutationRate = 0.99**(randint(-415, -45))
+	lethality = 0.99**randint(-178, 900)
+	mutationRate = 0.99**(randint(-415, 415))
 	
 	return transmissionFee, lethality, incubationTime, maxActiveTime, mutationRate
