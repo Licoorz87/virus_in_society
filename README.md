@@ -7,6 +7,7 @@ the population is based on real data on age, HIV, diabetes, weight, heart proble
 the virus has one name, a transmission rate, lethality, incubation time, active time and a probability of mutation every 10000 transmissions (all randomly).
 
 • How Works?
+
 The application works with three non-interactive programs: creationPoPulation.py, creationVirus.py and main.py.
 
 1. creationPopulation - Creates a whole population with real data from the Brazilian population, such as: percentage of the population in a given age group, percentage of an age group with HIV, percentage of diabetes in an age group, and more.
