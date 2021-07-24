@@ -6,6 +6,7 @@ the population is based on real data on age, HIV, diabetes, weight, heart proble
 
 the virus has one name, a transmission rate, lethality, incubation time, active time and a probability of mutation every 10000 transmissions (all randomly).
 
+
 • How Works?
 
 The application works with three non-interactive programs: creationPoPulation.py, creationVirus.py and main.py.
@@ -19,3 +20,8 @@ In addition, the person's risk is calculated, this means if it is most likely to
 After all created, the patient zero is randomly infected and the contagion begins.
 Always showing the statistics of the day and the general statistics of infected, immunized and dead.
 In the end, it uses matplotlib to show the statistics day by day on the screen.
+
+
+• About Terms of Use:
+
+You can change, edit, include, remove, improve, or do anything, so hard to give the proper credits for https://github.com/licooorz87.
