@@ -24,4 +24,4 @@ In the end, it uses matplotlib to show the statistics day by day on the screen.
 
 • About Terms of Use:
 
-You can change, edit, include, remove, improve, or do anything, so hard to give the proper credits for https://github.com/licooorz87.
+You can change, edit, include, remove, improve, or do anything, only give the proper credits for https://github.com/licooorz87.
