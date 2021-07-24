@@ -19,7 +19,7 @@ In addition, the person's risk is calculated, this means if it is most likely to
 3. main - This makes the whole process behind virus transmissions, deaths, mutation and everything else. First a population with 100,000 individuals (alterable) is created. Then the totally random virus is created, but may be modified.
 After all created, the patient zero is randomly infected and the contagion begins.
 Always showing the statistics of the day and the general statistics of infected, immunized and dead.
-In the end, it uses matplotlib to show the statistics day by day on the screen.
+In the end, it uses matplotlib to show the statistics on the screen.
 
 
 • About Terms of Use:
