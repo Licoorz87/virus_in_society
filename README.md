@@ -21,6 +21,13 @@ After all created, the patient zero is randomly infected and the contagion begin
 Always showing the statistics of the day and the general statistics of infected, immunized and dead.
 In the end, it uses matplotlib to show the statistics on the screen.
 
+• dependencies:
+```python
+pip install matplotlib
+```
+
+
+
 
 • About Terms of Use:
 
